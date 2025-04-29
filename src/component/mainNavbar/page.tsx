@@ -75,8 +75,14 @@ export default function mainNavbar() {
                     <div className="flex justify-between items-center h-16">
                         {/* Logo */}
                         <Link href="/">
-                            <Image src={logo} alt="Logo" width={180} height={50} />
-                        </Link>
+  <Image
+    src={logo}
+    alt="Logo"
+   
+    className="w-[140px] h-auto sm:w-[140px] xs:w-[100px]"
+  />
+</Link>
+
 
                         {/* Desktop Links */}
                         <div className="hidden lg:flex space-x-12 font-[500] text-md">

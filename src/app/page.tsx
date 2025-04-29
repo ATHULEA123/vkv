@@ -115,8 +115,8 @@ export default function Home() {
         <div className="container">
           <div className="flex  items-center justify-around md:flex-row flex-col ">
             <div className="flex flex-col gap-2 md:gap-4 lg:mt-0 mt-6">
-              <h1 className="lg:text-7xl md:text-5xl text-4xl text-[#0792CE] font-semibold">Welcome To</h1>
-              <h1 className="lg:text-7xl md:text-5xl text-4xl text-[#E68120] font-semibold mb-4 md:mb-6 ">Vkv Dental Clinic</h1>
+              <h1 className="lg:text-7xl md:text-5xl text-3xl text-[#0792CE] font-semibold">Welcome To</h1>
+              <h1 className="lg:text-7xl md:text-5xl text-3xl text-[#E68120] font-semibold mb-4 md:mb-6 ">Vkv Dental Clinic</h1>
               <p className="max-w-[590px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua ut enim ad minim veniam, quis nostrud.</p>
               <div className="flex md:justify-start justify-center">
